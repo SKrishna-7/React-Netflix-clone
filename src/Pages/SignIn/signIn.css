@@ -1,0 +1,48 @@
+.signin{
+    max-width: 350px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0,0,0.8);
+}
+.signin>form{
+    display: grid;
+    }
+.signin>form>h1{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.signin>form>h5{
+    text-align: left;
+    margin-top: 40px;
+    
+}
+.signin__graybtn{
+    color: gray;
+}
+.signin__link{
+    cursor: pointer;
+    margin-left:5px;
+}
+.signin__link:hover{
+    text-decoration: underline;
+}
+.signin>form>input{
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.signin>form>button{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #cf0610ef;
+    font-weight:600;
+    cursor: pointer;
+    margin-top: 20px;
+}
